@@ -2,54 +2,31 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Receituário Cannabis - Gift Hub</title>
+    <title>Receituário Cannabis - Mantecorp</title>
 
+    <meta property="og:title" content="Receituário Cannabis - Mantecorp">
+    <meta property="og:description" content="Plataforma de Prescrição e Gestão Alta Performance.">
+    <meta property="og:url" content="https://altaperformancepro.github.io/RECEITURARIOCANABIS/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Receituário Cannabis - Gift Hub">
-    <meta property="og:description" content="Plataforma exclusiva para prescrição e gestão.">
-    <meta property="og:image" content="https://raw.githubusercontent.com/altaperformancepro/RECEITURARIOCANABIS/c82003316e6a28ce214deac576b8e9913d645111/PREVISACANABIS.png">
-    <meta property="og:url" content="https://seu-dominio.com"> <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    
+    <meta property="og:image" content="https://raw.githubusercontent.com/altaperformancepro/RECEITURARIOCANABIS/main/PREVISACANABIS.png">
+    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/altaperformancepro/RECEITURARIOCANABIS/main/PREVISACANABIS.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="400">
 
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#008037"> <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Receituário">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#008037">
 
     <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            width: 100%;
-            overflow: hidden;
-            background-color: #f4f4f4;
-        }
-        iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #000; }
+        iframe { position: absolute; border: none; width: 100%; height: 100%; }
     </style>
 </head>
 <body>
-
-    <iframe src="https://cannabis-mantecorp.lovable.app" allowfullscreen></iframe>
-
-    <script>
-        // Registro do Service Worker para permitir a instalação em PC/Celular
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('sw.js')
-                    .then(reg => console.log('PWA Ativo!'))
-                    .catch(err => console.log('Erro PWA:', err));
-            });
-        }
-    </script>
+    <iframe src="https://cannabis-mantecorp.lovable.app"></iframe>
 </body>
 </html>
